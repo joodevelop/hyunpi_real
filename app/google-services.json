@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "80008346452",
+    "firebase_url": "https://hunpi-64185.firebaseio.com",
+    "project_id": "hunpi-64185",
+    "storage_bucket": "hunpi-64185.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80008346452:android:86553a0a7d1db5ff3e26c1",
+        "android_client_info": {
+          "package_name": "com.joo.hyunpi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80008346452-rqn0hbck98rfmsuaffpfn4g7791l2dah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joo.hyunpi",
+            "certificate_hash": "163e132f88b8e899ed4a90eaf8561fc7f4808090"
+          }
+        },
+        {
+          "client_id": "80008346452-fb6vmibdgl784pvh76s6t0hbue00s6qt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkMzOMB-PFYWPZhgRaBnH3vkorktfc_k0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80008346452-fb6vmibdgl784pvh76s6t0hbue00s6qt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
