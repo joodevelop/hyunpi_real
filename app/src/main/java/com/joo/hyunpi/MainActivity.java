@@ -1,7 +1,6 @@
 package com.joo.hyunpi;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -24,12 +23,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        button1 = findViewById(R.id.button1);
+        button1 = findViewById(R.id.button_1);
         button1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this , button1.class);
-                startActivity(intent); // 액티비티 이동.
+                startActivity(intent);
+
+
+
+
+                // 액티비티 이동.
             }
 
         });

@@ -28,6 +28,13 @@
         </activity>
         <activity android:name=".PasswordResetActivity">
         </activity>
+        <activity android:name=".Data" />
+        <activity android:name=".RecyclerAdapter" />
+        <activity android:name=".button1_new" />
+
+
+
+
 
     </application>
 
