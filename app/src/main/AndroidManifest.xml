@@ -31,6 +31,9 @@
         <activity android:name=".Data" />
         <activity android:name=".RecyclerAdapter" />
         <activity android:name=".button1_new" />
+        <activity android:name=".GridAdapter" />
+        <activity android:name=".button3_new" />
+
 
 
 

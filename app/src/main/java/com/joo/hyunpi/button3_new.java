@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Objects;
 
-public class button1_new extends AppCompatActivity {
+public class button3_new extends AppCompatActivity {
 
     TextView textTitle ;
 
@@ -20,13 +20,13 @@ public class button1_new extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_button1_item);
+        setContentView(R.layout.activity_button3_item);
 
 
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
 
-        textTitle = findViewById(R.id.button1_1);
+        textTitle = findViewById(R.id.button3_2);
 
 
         Intent intent = getIntent();
