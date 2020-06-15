@@ -35,10 +35,6 @@
         <activity android:name=".button3_new" />
 
 
-
-
-
-
     </application>
 
 </manifest>

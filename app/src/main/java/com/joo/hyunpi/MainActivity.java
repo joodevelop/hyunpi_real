@@ -11,16 +11,20 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserInfo;
 
+
 public class MainActivity extends AppCompatActivity {
     private View button1;
     private View button2;
     private View button3;
     private View button4;
 
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
 
         button1 = findViewById(R.id.button_1);
