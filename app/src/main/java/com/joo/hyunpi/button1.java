@@ -44,9 +44,9 @@ public class button1 extends AppCompatActivity {
     private void getData() {
 
         // 임의의 데이터입니다.
-        List<String> listTitle = Arrays.asList("");
+        List<String> listTitle = Arrays.asList("20.06.21");
         List<String> listContent = Arrays.asList(
-                ""
+                "0x15b1c3ba66119c006980a9e3880edd6da08f3d945141c6b85f2af6a96da04156"
 
         );
 

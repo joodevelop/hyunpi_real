@@ -30,7 +30,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="23dp"
         android:layout_marginEnd="40dp"
-        android:text="현재 보유한 코인 : 0HP"
+        android:text="현재 보유한 코인 : 10 HP"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
@@ -96,28 +96,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text=""
+                android:text="1"
                 android:textSize="18dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text=""
+                android:text="적립"
                 android:textSize="18dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text=""
+                android:text="+10 HP"
                 android:textSize="18dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text=""
+                android:text="20.06.21"
                 android:textSize="18dp" />
 
 
