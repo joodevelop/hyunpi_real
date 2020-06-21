@@ -44,14 +44,9 @@ public class button1 extends AppCompatActivity {
     private void getData() {
 
         // 임의의 데이터입니다.
-        List<String> listTitle = Arrays.asList("200101", "200109", "200318", "200422", "200516", "200604");
+        List<String> listTitle = Arrays.asList("");
         List<String> listContent = Arrays.asList(
-                "blood_001_i000001_동부헌혈의집",
-                "blood_002_i000002_동부헌혈의집",
-                "blood_003_i000003_동부헌혈의집",
-                "blood_004_i000004_동부헌혈의집",
-                "blood_005_i000005_동부헌혈의집",
-                "blood_006_i000006_동부헌혈의집"
+                ""
 
         );
 
