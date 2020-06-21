@@ -69,10 +69,9 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ItemViewHolder
                 @Override
                 public void onClick(View v) {
 
-                    Intent intent = new Intent(v.getContext(), button3.class);
+                    Intent intent = new Intent(v.getContext(), button3_new.class);
                     intent.putExtra("listTitle", String.valueOf(listTitle2.get(getAdapterPosition())));
                     v.getContext().startActivity(intent);
-
 
 
                 }

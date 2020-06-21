@@ -33,6 +33,9 @@
         <activity android:name=".button1_new" />
         <activity android:name=".GridAdapter" />
         <activity android:name=".button3_new" />
+        <activity android:name=".addblood" />
+        <activity android:name=".coin" />
+        <activity android:name=".gifticon" />
 
 
     </application>

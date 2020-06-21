@@ -3,24 +3,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/button1_1"
+        android:id="@+id/button3_3"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="1dp"
         android:gravity="center"
         android:background="@drawable/boxcolor"
-        android:text="헌혈증서 관리"
+        android:text="거래 창"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#F6F1F1"
         android:textSize="32sp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/button_1"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#F0F0F0" />
+        android:layout_height="585dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/mega" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="ButtonClick"
+        android:text="구매하기 " />
+
+
 </LinearLayout>

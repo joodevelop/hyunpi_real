@@ -1,18 +1,12 @@
 package com.joo.hyunpi;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
-import android.nfc.Tag;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Toast;
 
-import java.net.Inet4Address;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -22,8 +16,7 @@ public class button1 extends AppCompatActivity {
     private RecyclerAdapter adapter;
 
 
-    public static void setOnClickListener(View.OnClickListener onClickListener) {
-    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

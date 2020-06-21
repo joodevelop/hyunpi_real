@@ -7,31 +7,30 @@
     android:layout_height="match_parent"
     tools:context="button4">
 
+
     <TextView
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:background="@drawable/boxcolor"
         android:gravity="center"
         android:text="헌혈증 기부"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="450dp"
+        android:layout_marginBottom="300dp"
         android:stretchColumns="*"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,6 +128,17 @@
 
 
     </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="612dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hyunpilogo" />
 
 
 

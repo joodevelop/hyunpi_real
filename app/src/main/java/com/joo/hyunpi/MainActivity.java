@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private View button2;
     private View button3;
     private View button4;
-
+    private View addblood;
+    private View coin;
 
 
     @Override
@@ -67,6 +68,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this , button4.class);
+                startActivity(intent); // 액티비티 이동.
+            }
+
+        });
+        addblood = findViewById(R.id.addBlood);
+        addblood.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this , addblood.class);
+                startActivity(intent); // 액티비티 이동.
+            }
+
+        });
+        coin = findViewById(R.id.coin);
+        coin.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this , coin.class);
                 startActivity(intent); // 액티비티 이동.
             }
 
