@@ -127,7 +127,7 @@
         android:layout_marginStart="230dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="20dp"
-        android:text="보유 코인 : 10 HP"
+        android:text="보유 코인 : 0 HP"
         android:textColor="#050505"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/logoutButton"

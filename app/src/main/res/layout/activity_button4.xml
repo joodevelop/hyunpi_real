@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/table_inside"
                 android:gravity="center"
-                android:text="헌혈증코드"
+                android:text="헌혈증"
                 android:textSize="21sp" />
 
             <TextView
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text=""
+                android:text="1"
                 android:textSize="21dp" />
 
             <TextView
@@ -84,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text=""
+                android:text="20.06.21"
                 android:textSize="21dp" />
 
             <TextView
@@ -92,7 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text=""
+                android:text="no"
                 android:textSize="21dp" />
 
 
